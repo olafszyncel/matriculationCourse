@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+About
+{% endblock %}
+
+{% block main %}
+
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+      {% for message in messages %}
+           <p class="pop">{{ message }}</p>
+      {% endfor %}
+{% endif %}
+{% endwith %}
+
+<div class="text-box">
+    <h2>This is matriculation course!</h2>
+
+    <p>This course prepare you to pass the matura exam in Poland.
+        <br> You will learn about linear, quadratic, logarithmic functions,
+        <br>geometry, trigonometry, derivative of a function and more.
+    </p>
+
+    <a href="/buy" class="hero-btn">Join the course now!</a>
+</div>
+<div class="social-box">
+    <p>You will also check our socials!</p>
+    <a href="https://www.facebook.com/" target="_blank" class="hero-btn same">Facebook</a>
+    <br>
+    <a href="https://www.instagram.com/" target="_blank" class="hero-btn same">Instagram</a>
+    <br>
+    <a href="https://www.tiktok.com/" target="_blank" class="hero-btn same">TikTok</a>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Buy
+{% endblock %}
+
+{% block main %}
+
+<div class="shop-head">
+    <h2>Courses</h2>
+</div>
+
+<div class="shop-content">
+    <div class="product-box">
+        <img src="../static/kid.jpg" alt="" class="product-img">
+        <h3 class="product-title">maths at the basic level</h3>
+        <span class="price">50 PLN</span>
+        <button class="bx bx-shopping-bag add-cart" id="bas" name="bas" type="submit" value="bas">BUY</button>
+    </div>
+    <div class="product-box">
+        <img src="../static/adult.jpg" alt="" class="product-img">
+        <h3 class="product-title">maths at the advanced level</h3>
+        <span class="price">100 PLN</span>
+        <button class="bx bx-shopping-bag add-cart" id="adv" name="adv" type="submit" value="adv">BUY</button>
+    </div>
+
+</div>
+{% endblock %}
