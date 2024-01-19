@@ -1,5 +1,4 @@
 # matriculationCourse
-# YOUR PROJECT TITLE
 #### Video Demo:  https://youtu.be/N6sytQUjLmU
 #### Description: My webpage give to the user math exam to test his skills.
 The user first of all must register acount, then sing in and buy course. There is two math courses to buy, basic and advanced. If the user buys a course, the appropriate button will appear in the "your courses" tab. After clicking on the button, user have test to solve. Test have opened and closed examples. After solving user sshould click on the submit button and under this button will show up information with scored points, passed and failed examples.
