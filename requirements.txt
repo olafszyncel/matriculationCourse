@@ -2,3 +2,15 @@ cs50
 Flask
 Flask-Session
 requests
+certifi
+chardet
+click
+Flask
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+requests
+stripe
+urllib3
+Werkzeug
